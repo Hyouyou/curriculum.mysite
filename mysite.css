@@ -74,13 +74,13 @@ strong{
 	margin:0 auto;
 }
 
-.content-title, .feature-title, .profile-title{
+.content-title, .feature-title, .profile-title, .contact-title{
 	text-align: center;
 	font-size:32px;
 	padding-top:90px;
 }
 
-.content-title::after, .feature-title::after, .profile-title::after{
+.content-title::after, .feature-title::after, .profile-title::after, .contact-title::after{
 	content:"";
 	display:block;
 	height:3px;
@@ -89,7 +89,7 @@ strong{
 	margin:8px auto 0 auto;
 }
 
-.content-explanation, .feature-explanation, .profile-explanation{
+.content-explanation, .feature-explanation, .profile-explanation, .contact-explanation{
 	margin:30px auto;
 	text-align:center;
 }
@@ -207,4 +207,34 @@ i{
 
 .skill{
 	margin:20px 0 5px 0;
+}
+
+.contact{
+	width:100%;
+}
+
+.main-contact{
+	width:800px;
+	margin:0 auto;
+	padding-bottom:90px;
+}
+
+.left-box, .right-box{
+	width:400px;
+	float:left;
+}
+
+.left-box-content{
+	margin:0 auto;
+	width:200px;
+}
+
+.right-box .fab{
+	font-size:50px;
+	float:left;
+	margin-right:20px;
+}
+
+.mail-text, .tel-text{
+	color:#212121;
 }
