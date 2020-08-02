@@ -74,13 +74,13 @@ strong{
 	margin:0 auto;
 }
 
-.content-title, .feature-title{
+.content-title, .feature-title, .profile-title{
 	text-align: center;
 	font-size:32px;
 	padding-top:90px;
 }
 
-.content-title::after, .feature-title::after{
+.content-title::after, .feature-title::after, .profile-title::after{
 	content:"";
 	display:block;
 	height:3px;
@@ -89,7 +89,7 @@ strong{
 	margin:8px auto 0 auto;
 }
 
-.content-explanation, .feature-explanation{
+.content-explanation, .feature-explanation, .profile-explanation{
 	margin:30px auto;
 	text-align:center;
 }
@@ -162,7 +162,7 @@ strong{
 	display:inherit;
 }
 
-h3{
+.feature-content-title{
 	text-align:center;
 	margin:10px 0;
 }
@@ -170,4 +170,41 @@ h3{
 i{
 	size:60px;
 	text-align:center;
+}
+
+.profile{
+	max-width:100%;
+	background-color:#eceff1;
+}
+
+.main-profile{
+	width:1024px;
+	margin:0 auto;
+	padding-bottom:90px;
+}
+
+.profile-image{
+	width:512px;
+	float:left;
+}
+
+.face-icon{
+	background-image:url(img/my-icon.jpg);
+	border-radius:50%;
+	width:250px;
+	height:250px;
+	margin:0 auto;
+}
+
+.profile-content{
+	width:512px;
+	float:left;
+}
+
+.name{
+	margin-bottom:5px;
+}
+
+.skill{
+	margin:20px 0 5px 0;
 }
